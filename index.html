@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestor de Transacciones</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Calculadora de Presupuesto Personal</h1>
+    <label for="monto">Monto:</label>
+    <input type="number" id="monto" placeholder="Ingrese el monto">
+    <label for="descripcion">Descripción:</label>
+    <input type="text" id="descripcion" placeholder="Ingrese la descripción">
+    <button id="btn-ingreso">Agregar Ingreso</button>
+    <button id="btn-gasto">Agregar Gasto</button>
+    <h2 id="balance-total">Balance: $0.00</h2>
+    <ul id="lista-transacciones"></ul>
+    <script src="./js/balanza.js"></script>
+</body>
+</html>
